@@ -1,0 +1,16 @@
+.contain-content {
+	contain: content;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+	font-family: "Nunito Sans", sans-serif;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+}
+
+/* This is required for last section (11) */
+.accordion-button:after {
+	background-image: url("../img/11_section/circlePlus.svg") !important;
+}

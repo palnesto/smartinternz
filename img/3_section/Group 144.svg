@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="313" height="352" viewBox="0 0 313 352">
+  <g id="Group_144" data-name="Group 144" transform="translate(-120 -1197)">
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="200" height="200" rx="100" transform="translate(177 1197)" fill="#fff"/>
+    <text id="Connect_with_companies" data-name="Connect with companies" transform="translate(127 1421)" fill="#052d60" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="7" y="26">Connect With Companies</tspan></text>
+    <text id="Eligible_candidates_get_an_opportunity_to_connect_with_companies_for_Hiring" data-name="Eligible candidates get an opportunity to connect with companies for Hiring" transform="translate(120 1466)" fill="#052d60" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="5" y="19">Eligible candidates get an opportunity </tspan><tspan x="9" y="43">to connect with companies for Hiring</tspan></text>
+    <g id="Group_146" data-name="Group 146" transform="translate(210.5 217.138)">
+      <path id="Path_31" data-name="Path 31" d="M5,1059.162l28-24m-4,80-24-40m60-4,28-28m-8,52-20-12m-56-12,44,4m-10,46,42-14m-26-82.4,30,4.4m12,14-4,52" transform="translate(10.5 8.701)" fill="none" stroke="#0075d3" stroke-width="1"/>
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="14" cy="14" r="14" transform="translate(41.5 1021.862)" fill="#0075d3"/>
+      <circle id="Ellipse_40" data-name="Ellipse 40" cx="10" cy="10" r="10" transform="translate(1.5 1065.862)" fill="#0075d3"/>
+      <circle id="Ellipse_41" data-name="Ellipse 41" cx="8" cy="8" r="8" transform="translate(37.5 1121.862)" fill="#0075d3"/>
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="8" cy="8" r="8" transform="translate(61.5 1077.862)" fill="#0075d3"/>
+      <path id="Path_32" data-name="Path 32" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" transform="translate(93.5 1101.862)" fill="#0075d3"/>
+      <circle id="Ellipse_44" data-name="Ellipse 44" cx="10" cy="10" r="10" transform="translate(97.5 1033.862)" fill="#0075d3"/>
+    </g>
+  </g>
+</svg>
