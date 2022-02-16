@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const splide9 = new Splide(".section_9_splide", { rewind: true });
 	splide9.on("pagination:mounted", function (data) {
-		data.list.classList.add("splide__pagination--custom", "!-top-8", "!py-3", "!bottom-[unset]", "!absolute");
+		data.list.classList.add("splide__pagination--custom", "!-top-8", "!py-3", "!px-0", "!bottom-[unset]", "!absolute");
 
 		// `items` contains all dot items
 		data.items.forEach(function (item, index) {
