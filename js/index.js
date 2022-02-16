@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	 */
 	// Mounting Slider in HTML DOM
 	// In small size device the slider will not appear
-	if (window.innerWidth < 768) {
+	if (window.innerWidth < 1024) {
 		document.getElementById("splide_6_list").classList = "grid grid-cols-2 gap-4";
 	} else {
 		const splide6 = new Splide(".sec6_splide", {
