@@ -62,9 +62,9 @@ document.addEventListener("DOMContentLoaded", function () {
 				index === S9subSections.length - 1 && "!rounded-r-full"
 			}`;
 
-			item.button.innerHTML = `<div class=" py-2 px-4  hover:bg-gray-300  ${index === 0 && "rounded-l-full"} ${
-				index === S9subSections.length - 1 && "rounded-r-full"
-			}">${S9subSections[index]}</div>`;
+			item.button.innerHTML = `<div class="text-xs sm:text-sm py-0.5 sm:py-2 px-2 sm:px-4  hover:bg-gray-300  ${
+				index === 0 && "rounded-l-full"
+			} ${index === S9subSections.length - 1 && "rounded-r-full"}">${S9subSections[index]}</div>`;
 		});
 	});
 	splide9.mount();
