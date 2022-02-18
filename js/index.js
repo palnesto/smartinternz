@@ -2,25 +2,28 @@ document.addEventListener("DOMContentLoaded", function () {
 	/*
 	 * 	Section 6
 	 */
-	// Mounting Slider in HTML DOM
-	// In small size device the slider will not appear
-	if (window.innerWidth < 1024) {
-		document.getElementById("splide_6_list").classList = "grid grid-cols-2 gap-4";
-	} else {
-		const splide6 = new Splide(".sec6_splide", {
-			perPage: 4,
-			rewind: true,
-		});
-		splide6.on("pagination:mounted", function (data) {
-			data.list.classList.add("splide__pagination--custom", "!-bottom-8", "!hidden");
+	const splide6 = new Splide(".sec6_splide", {
+		rewind: true,
+		type: "loop",
+		perPage: 4,
+		breakpoints: {
+			// 640: {
+			// 	perPage: 1,
+			// },
+			768: {
+				perPage: 2,
+			},
+		},
+	});
+	splide6.on("pagination:mounted", function (data) {
+		data.list.classList.add("splide__pagination--custom", "!-bottom-8", "!hidden");
 
-			// `items` contains all dot items
-			data.items.forEach(function (item) {
-				item.button.classList = " !bg-darkBlue !border !border-darkBlue !p-1 !rounded-full !mx-2";
-			});
+		// `items` contains all dot items
+		data.items.forEach(function (item) {
+			item.button.classList = " !bg-darkBlue !border !border-darkBlue !p-1 !rounded-full !mx-2";
 		});
-		splide6.mount();
-	}
+	});
+	splide6.mount();
 
 	/*
 	 * 	Section 7
