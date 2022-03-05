@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 		return new Tooltip(tooltipTriggerEl);
 	});
-	console.log(Tooltip);
 
 	/*
 	 * 	Section 9
